@@ -1,0 +1,49 @@
+Nội dung của trang web:
+    - Giới thiệu
+    - Những kiến thức, tâm lí, những thứ cần chuẩn bị để học tốt hơn trong môn này
+    - Kiến thức bắt buộc:
+        + 2 bảng hiragana, katakana
+
+Thiết kế trang web:
+    - Header + Main:
+        + logo (đã hoàn thành)
+        + menu:
+            * Kiến thức:
+                - Kiến thức nền tảng:
+                    + JPD113:
+                        1) 2 bảng hira, kata (thiếu âm ghép, âm ngắt)
+                        2) Ngữ pháp cơ bản (đã hoàn thành)
+                        3) Mẫu câu cơ bản (đã hoàn thành)
+                        4) Ngày (đã hoàn thành)
+                        5) Tháng (đã hoàn thành)
+                        6) Đếm Số 
+                        7) Tuổi 
+                    + JPD123:
+                    
+                - Kiến thức thi middle:
+                    + JPD113:
+                    + JPD123:
+                - Kiến thức thi final
+                    + Ngữ Pháp:
+                        1) Các chữ kanji bài 1, 2, 3
+                        2) Thứ, Năm
+                        3) các động từ
+                        4) câu phủ định
+                        5) trợ từ を, に, で, へ
+                    + Nghe:
+                        
+            * Bài tập:
+                - Trắc Nghiệm Hira, Kata
+                - Trắc Nghiệm Ngữ Pháp
+                - Trắc Nghiệm Thi Middle
+            * Tra cứu:
+                - Giáo trình Dekiru
+                - Tổng hợp Kanji
+                - Tài liệu khác
+            * About me (link github)
+
+    - Footer:
+        
+    Ghi chú: 
+        + Thêm tính năng menu phụ lục để người dùng có thể nhấn tìm nhanh trong trang (đã hoàn thành)
+        + 

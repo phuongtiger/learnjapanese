@@ -1,0 +1,29 @@
+@media (max-width: 1000px){
+    #age .right-table,
+    #age .left-table,
+    #digit .right-table,
+    #digit .left-table{
+        flex-basis: 100%;
+        max-width:none;
+    }
+    #digit .day-table tbody tr:last-child,
+    #digit .right-table thead{
+        display: none;
+    }
+}
+@media (max-width: 780px){
+    #hiragana,
+    #katakana{
+        flex-basis: 100%;
+        max-width:none;
+    }
+    .single-table tr th:first-child,
+    .single-table tr td:first-child{
+        display: none;
+    }
+    .single-table th,
+    .single-table td,
+    .single-table tr{
+        font-size: 16px;
+    }
+}

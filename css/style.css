@@ -1,0 +1,175 @@
+/* Generald */
+.correct{
+    color: green;
+}
+.incorrect{
+    color: red;
+}
+img{
+    width: 100%;
+}
+tr,
+th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+td p{
+    color: blue;
+}
+.mrb-0 {
+    margin-bottom: 0 !important;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+#toggle-sidebar {
+    position: fixed;
+    top: 200px;
+    left: 10px;
+    z-index: 9;
+    transition: all 0.5s ease;
+}
+#toggle-sidebar:active{
+    transform: scale(1.1);
+} 
+#scroll-sidebar {
+    position: fixed;
+    top: 330px;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 200px;
+    height: auto;
+    background-color: #f1f1f1;
+    padding: 10px;
+    z-index: 8;
+    box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+}
+
+
+/* Navbar */
+
+.navbar {
+    justify-content: space-around !important;
+    text-align: center;
+}
+.navbar-dark .navbar-brand{
+    font-size: 24px;
+}
+.navbar-brand {
+    flex-basis: 30%;
+    text-transform: uppercase;
+}
+
+.navbar-collapse {
+    flex-basis: 70%;
+    font-size: 18px;
+    text-align: left;
+}
+
+.navbar-collapse .nav-item {
+    padding-left: 50px;
+}
+
+/* Sub-menu */
+.dropdown-menu {
+    background-color: #f8f9fa;
+    /* Màu nền của sub-menu */
+    border: none;
+    /* Xóa viền */
+    border-radius: 0 !important;
+    /* Xóa góc bo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Hiệu ứng bóng đổ */
+    padding: 10px 0;
+    /* Khoảng cách đệm */
+}
+
+.dropdown-item {
+    color: #333;
+    /* Màu chữ của các mục con */
+    padding: 8px 20px;
+    /* Khoảng cách đệm của các mục con */
+    transition: background-color 0.3s;
+    /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.dropdown-item:hover {
+    background-color: var(--dark) !important;
+    color: #ccc !important;
+    /* Màu nền khi di chuột qua mục con */
+}
+
+.dropdown-divider {
+    border-color: #ccc;
+    /* Màu viền của các đường phân cách */
+}
+
+/* Main */
+main {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.date-table{
+    justify-content: center;
+}
+#vocab .single-table{
+    flex-basis: 100%;
+    max-width:none;
+}
+#garma p{
+    font-size: 20px;
+}
+#garma .articles{
+    padding: 20px 0;
+}
+.katakana-table,
+.hiragana-table{
+    background-color: var(--light);
+}
+.katakana-table tbody tr td:hover,
+.hiragana-table tbody tr td:hover{
+    background-color: #fff5d3;
+    cursor: pointer;
+}
+/* Footer */
+footer {
+    padding: 20px 0;
+}
+
+footer .container {
+    color: white;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-menu li:last-child {
+    margin-right: 0;
+}
+
+.footer-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-menu li a:hover {
+    color: #ff0000;
+}
